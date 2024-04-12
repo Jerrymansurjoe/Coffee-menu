@@ -54,7 +54,6 @@ span {
 .container {
     width: 80%;
     margin: 2vh auto;
-    padding-block-end: 1rem;
     /* background: var(--primary-color); */
     box-shadow: var(--box-shdw);
     border-radius: 1rem;
@@ -89,9 +88,9 @@ span {
 .container .menu__box {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin-inline: 4rem;
-    margin-block-start: 1rem;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 1rem 0;
 }
 
 .menu__box .menu__item {
@@ -104,6 +103,7 @@ span {
     box-shadow: var(--box-shdw);
     border-radius: 1rem;
     padding: 1rem;
+    margin: 3rem;
     background: var(--primary-color);           /* iasdfcgebslsvki */
 }
 
@@ -216,4 +216,5 @@ span {
 ion-icon {
     font-size: 1.2rem;
     font-weight: 400;
+    color: orangered;
 }
