@@ -165,7 +165,6 @@ span {
 }
 
 .image:hover img {
-    opacity: 0.4;
     transform: scale(1.1);
 }
 
@@ -208,9 +207,9 @@ span {
 }
 
  button:hover {
-    box-shadow: 0 0 8px 1px #0005;
+    box-shadow: 0 0 4px 1px #0005;
     color: var(--text-color);
-    border: 0.15rem solid #0006;
+    border: 0.12rem solid #000;
 }
 
 ion-icon {
